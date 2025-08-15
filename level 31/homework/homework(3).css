@@ -1,0 +1,28 @@
+
+.nav{
+    width:1556px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right:2%;
+}
+.header_items1{
+    margin-right:70px;
+    position: relative;
+    top:35%;
+    font-size:17px;
+    transition: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+.title{
+    position:relative;
+    left:2%;
+    font-size: 20px;
+    color: white;
+}
+.header_items1:hover{
+    font-size: 18px;
+    color:gainsboro;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}

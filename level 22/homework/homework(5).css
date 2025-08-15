@@ -1,0 +1,24 @@
+#a{
+    width:200px;
+    position: absolute;
+    top:1000px;
+}
+#b{
+    width:200px;
+    position: absolute;
+    top:2000px;
+}
+#c{
+    width:200px;
+    position: absolute;
+    top:3000px;
+}
+.item1{
+    align-items: center;
+}
+.item2{
+    align-items: center;
+}
+.item3{
+    align-items: center;
+}

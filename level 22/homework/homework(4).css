@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(46, 43, 43);
+}
+.header{
+    background-color: rgb(46, 43, 43);
+    width:1534px;
+    height: 70px;
+    position:absolute;
+    right:2px;
+    top:-4px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.header_title{
+    position:absolute;
+    left:40%;
+    top:-3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:azure;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.youtube{
+    position: absolute;
+    top: 39%;
+    background-color: rgb(46, 43, 43);
+    width: 420px;
+    height:400px;
+    text-align: center;
+}
+.img1{
+    width:250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom:15px;
+}
+.bt1{
+    background-color: rgb(31, 139, 33);
+    border-radius: 13px;
+    padding:5px;
+    color:white;
+    font-weight: 600;
+    border:solid;
+    border-width:1px;
+    box-shadow: 2px 2px 2px  rgba(0,0,0,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    font-size: 24px;
+    cursor: pointer;
+}
+.bt1:hover{
+    scale:1.1;
+}
+.img2{
+    width:250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom:15px;
+}
+.bt2{
+    background-color: rgb(31, 139, 33);
+    border-radius: 13px;
+    padding:5px;
+    color:white;
+    font-weight: 600;
+    border:solid;
+    border-width:1px;
+    box-shadow: 2px 2px 2px  rgba(0,0,0,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 24px;
+}
+.bt2:hover{
+    scale:1.1;
+}
+.github{
+    width: 420px;
+    height:400px;
+    position: absolute;
+    left:36%;
+    top:29%;
+    text-align: center;
+}
+.bt3{
+    background-color: rgb(31, 139, 33);
+    border-radius: 13px;
+    padding:5px;
+    color:white;
+    font-weight: 600;
+    border:solid;
+    border-width:1px;
+    box-shadow: 2px 2px 2px  rgba(0,0,0,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 24px;
+}
+.bt3:hover{
+    scale:1.1;
+}
+.img3{
+    width:250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom:15px;
+}
+.google{
+    width: 400px;
+    height:400px;
+    position: absolute;
+    left:73%;
+    top:30%;
+    text-align: center;
+}
