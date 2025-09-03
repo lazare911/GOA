@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: hsl(30, 34%, 65%);
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            background-color: white;
+            border: 2px solid black;
+            width:30%;
+            height: 20dvw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form > *{
+            margin:1.5rem 0;
+        }
+        label{
+            font-size:clamp(0.5rem,5dvw,2rem);
+            font-weight: 500;
+        }
+        .us{
+            width:50%;
+            height: 10%;            
+            transition: 0.3s;
+
+        }
+        .pa{
+            width:50%;
+            height: 10%;
+            transition: 0.3s;
+        }
+        input:focus{
+            scale:1.1;
+        }
+        button{
+            background-color: white;
+            color: black;
+            transition: 0.3s;
+            padding: 0.3rem;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        button:hover{
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label >Login To Your Account</label>
+        <input type="text" placeholder="Username" class="us">
+        <input type="text" placeholder="Password" class="pa">
+        <button>Login</button>
+    </form>
+</body>
+</html>
