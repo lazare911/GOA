@@ -1,0 +1,2 @@
+display:block; is an display type that displays element as an blocks
+display:inline; displays element as an max width element.

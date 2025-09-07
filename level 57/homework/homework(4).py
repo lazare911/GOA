@@ -1,4 +1,3 @@
-
 students = {
     "Ana": 95,
     "Giorgi": 88,

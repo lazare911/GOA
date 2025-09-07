@@ -1,0 +1,2 @@
+differance between this to diplays block and inline is that inline have width background
+and inline background ends when the border ends. 

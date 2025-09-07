@@ -4,4 +4,4 @@ for i in l:
     if i>5:
         print(i)
         res+=1
-print('Numbers higher thn five:',res)
+print('Numbers higher than five:',res)

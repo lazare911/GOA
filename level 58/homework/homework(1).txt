@@ -1,0 +1,1 @@
+display is an way to how elements will be output on the web site
